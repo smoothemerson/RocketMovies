@@ -3,7 +3,7 @@ import { Container } from './styles'
 export function Button({ title, loading = false, exclude, ...rest }){
   return(
     <Container
-      exclude={exclude}
+      $exclude={exclude}
       type='button'
       disabled={loading}
       {...rest}
