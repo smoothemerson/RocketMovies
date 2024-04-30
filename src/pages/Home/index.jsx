@@ -1,4 +1,4 @@
-import { Container, Content, NewNote } from './styles'
+import { Container, Content } from './styles'
 
 import { Header } from '../../components/Header'
 import { Section } from '../../components/Section'
